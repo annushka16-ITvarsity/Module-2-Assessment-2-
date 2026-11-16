@@ -1,0 +1,292 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-home{
+    background-image: linear-gradient(160deg, #8e1b10, #c0392b 45%, #ff8f00);
+}
+
+.body-meals{
+    background-image: linear-gradient(160deg, #fff3e0, #ffe0b2);
+}
+
+.body-recipes{
+    background-image: linear-gradient(160deg, #fff8f0, #ffe9d2);
+}
+
+/* ---------- Home page ---------- */
+#home{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#home-logo-img{
+    width: 110px;
+}
+
+#home-logo-text{
+    display: block;
+    width: 80%;
+    max-width: 320px;
+    margin: 10px auto 5px auto;
+}
+
+.tagline{
+    color: white;
+    margin: 0 0 25px 0;
+    font-size: 18px;
+}
+
+.home-menu-item{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.92);
+    color: #8e1b10;
+    text-decoration: none;
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.home-menu-item i{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.home-menu-item p{
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ---------- Header ---------- */
+.header{
+    background-color: #c0392b;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header a{
+    position: absolute;
+    left: 15px;
+    color: white;
+    font-size: 24px;
+}
+
+.header img{
+    height: 45px;
+}
+
+/* ---------- List pages ---------- */
+#meals{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#meals h2{
+    color: #8e1b10;
+    margin: 5px 0 15px 0;
+}
+
+#meals-list a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.meals-list-item{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.meals-list-item img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.meals-list-text{
+    flex: 1;
+    padding: 10px 15px;
+}
+
+.meals-list-text h1{
+    font-size: 20px;
+    margin: 0 0 5px 0;
+    color: #8e1b10;
+}
+
+.meals-list-text p{
+    margin: 0;
+    color: #555;
+}
+
+.meals-list-text .price{
+    color: #c0392b;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.meals-list-item .arrow{
+    padding-right: 15px;
+    color: #c0392b;
+}
+
+/* ---------- Item page ---------- */
+#recipe{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.recipe-details{
+    background-color: white;
+    border-radius: 14px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-details img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe-details h1{
+    color: #8e1b10;
+    margin: 15px 0 10px 0;
+}
+
+.recipe-details h2{
+    color: #c0392b;
+    font-size: 20px;
+    margin: 20px 0 8px 0;
+}
+
+.recipe-details-info{
+    overflow: hidden;
+    background-color: #fff3e0;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.recipe-details-info p{
+    margin: 0;
+}
+
+.recipe-details ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recipe-details li{
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.recipe-details li label{
+    margin-left: 6px;
+}
+
+.recipe-details li span{
+    float: right;
+    color: #777;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.order-button{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-button:hover{
+    background-color: #8e1b10;
+}
+
+/* ---------- Thank you page ---------- */
+#thanks{
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#thanks i{
+    font-size: 70px;
+    color: #2e9e4f;
+}
+
+#thanks h1{
+    color: #8e1b10;
+}
+
+.back-home{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #c0392b;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 480px){
+    .meals-list-item img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .meals-list-text h1{
+        font-size: 17px;
+    }
+
+    .recipe-details-info p{
+        float: none !important;
+        margin-bottom: 4px;
+    }
+}
